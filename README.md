@@ -1,6 +1,10 @@
 # ADToolbox
 A Toolbox for performing Active Directory tasks with a user interface. 
 
+![AD Toolbox GUI](/ADUnlockTool_UI_obscured.png?raw=true "AD Toolbox GUI")
+
+![Credentials Prompt](/Credentials_Prompt.PNG?raw=true "Credentials Prompt")
+
 <h2>How does it work?</h2>
 The project relies on Microsoft's Active Directory module to perform AD tasks and XAML for the GUI. For user authentication, the native Powershell Credentials object is used to ensure security. The program prompts for user credentials, authenticates, then allows the user to input a target to perform tasks on. Currently, the program can only get user account information and unlock the user. 
 
